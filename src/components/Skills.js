@@ -1,5 +1,5 @@
 // Skills.js
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {motion} from "framer-motion";
 import "../App.css"
