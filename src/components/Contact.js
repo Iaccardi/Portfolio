@@ -20,7 +20,7 @@ export const Contact = () => {
             <div className="row justify-content-center">
                 <div className="col-lg-6 col-md-8 col-sm-10 text-center">
                     <h2 className= "mt-3">Contact Me</h2>
-                    <form action="https://formsubmit.co/425834751706a168c7ccadc07e3ca182" method="POST">
+                    <form action="https://formspree.io/f/mbjnzovp" method="POST">
                         <div className="mb-3 pb-2">
                             <label htmlFor="name" className="form-label">Name/Company Name</label>
                             <input
