@@ -1,0 +1,18 @@
+backend:
+  name: git
+  repo: Iaccardi/portfolio # Replace with your GitHub repo
+  branch: main # Default branch
+
+media_folder: "static/images/uploads" # Where images will be stored
+public_folder: "/images/uploads" # URL path for uploaded images
+
+collections:
+  - name: "blog" # Name in the CMS
+    label: "Blog"
+    folder: "blog/posts" # Folder for Markdown files
+    create: true # Allow users to create new posts
+    slug: "{{slug}}" # File name for new posts
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
